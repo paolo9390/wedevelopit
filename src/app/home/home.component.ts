@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  slogan: string = 'Creating Innovative, modern and rensponsive Web Applications';
+  slogan: string = 'Creating innovative, modern and rensponsive Web Applications';
   title: string = 'We Develop IT'
-  subheading: string = 'Full MEAN Stack Web Developerment';
+  subheading: string = 'Full MEAN Stack Web Development';
 
   constructor() { }
 
