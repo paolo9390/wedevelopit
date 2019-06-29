@@ -1,0 +1,23 @@
+.home {
+    background-image: url('/assets/img/home/wedevelopit.jpg');
+    min-height: 40em;
+    flex-wrap: wrap;
+}
+
+.main {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+    padding-bottom: 15em;
+    text-align: center;
+}
+
+.mat-display-1 {
+    margin-bottom: 0.5em !important;
+}
+
+.icon {
+    font-size: larger;
+    margin-right: 0.5em;
+    vertical-align: sub;
+}
