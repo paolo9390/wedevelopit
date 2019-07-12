@@ -9,6 +9,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { MatToolbarModule, MatButtonModule, MatIconModule } from '@angular/material';
 import { HomeModule } from './home/home.module';
 import { FooterComponent } from './footer/footer.component';
+import { NotfoundModule } from './notfound/notfound.module';
 
 
 
@@ -19,14 +20,15 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    HomeModule
+    HomeModule,
+    NotfoundModule
   ],
   providers: [],
   bootstrap: [AppComponent]
